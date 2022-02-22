@@ -1,0 +1,17 @@
+package com.vishu.dsa.algorithmanalysis;
+
+public class Program1 {
+	
+	public static int findSum(int n) {
+		return n*(n+1)/2;
+	}
+	
+	public static void main(String[] args) {
+		long start_time = System.currentTimeMillis();
+		
+		System.out.println(findSum(1000000));
+		System.out.println(System.currentTimeMillis()-start_time);
+		
+	}
+
+}

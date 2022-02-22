@@ -1,0 +1,34 @@
+package com.vishu.dsa.linkedlist;
+
+public class InsertAtTheEndOfLinkedList {
+	
+	private static Node head;
+	
+	private static class Node {
+		int data;
+		Node next;
+		
+		Node(int data) {
+			this.data = data;
+			this.next = next;
+		}
+	}
+	
+	public static void printList() {
+		Node current = head;
+		while(current != null) {
+			System.out.println(current.next + "-->"); 
+			current = current.next;
+		}
+		System.out.println("null");
+	}
+	
+	public static void main(String[] args) {
+		head = new Node(10);
+		Node second = new Node(20);
+		head.next = second;
+		
+		printList();
+	}
+
+}
