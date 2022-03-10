@@ -1,0 +1,22 @@
+package com.vishu.dsa.arrays;
+
+public class ReverseArray {
+	
+	public static String reverseWord(String str)
+    {
+        // Reverse the string str
+        //String rev = "";
+        
+        StringBuffer s = new StringBuffer(str);
+        String rev = new String(s.reverse());
+        
+        return rev;
+        
+        // for(int i=str.length()-1; i>=0; i--) {
+        //     rev = rev + str.charAt(i);
+        // }
+        // return rev;
+        
+    }
+
+}
