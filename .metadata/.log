@@ -1450,3 +1450,91 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.eclipse.ui 2 2 2022-03-14 23:26:34.539
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 00:26:09.171
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oMxrGCAr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 00:26:09.174
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.oMxrGCAr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 00:26:09.174
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 00:26:09.175
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oMxrGCAr => OK
+!SESSION 2022-03-15 22:20:10.668 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=11.0.10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/vishu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/vishu/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-03-15 22:20:27.411
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-15 22:20:27.411
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10264cb0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19877453,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:34.911
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:34.913
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@48c1be1e[org.springframework.tooling.boot.ls:1.28.0.202109130547(id=959)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:34.921
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:35.038
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:44.988
+!MESSAGE Boot LS startup time from start to initialized: 10022ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:45.877
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HRXmNurCisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:45.895
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:45.902
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:45.912
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:45.913
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:45.916
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HRXmNurC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:45.924
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:45.925
+!MESSAGE buffering callback sts4.classpath.HRXmNurC DSA false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:45.926
+!MESSAGE executing callback sts4.classpath.HRXmNurC 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 22:20:47.048
+!MESSAGE executing callback sts4.classpath.HRXmNurC SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-03-15 22:41:12.396
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
