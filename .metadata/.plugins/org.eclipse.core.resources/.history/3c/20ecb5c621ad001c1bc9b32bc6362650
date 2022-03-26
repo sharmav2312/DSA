@@ -1,0 +1,15 @@
+package com.vishu.dsa.recursion;
+
+public class JosephusProblem {
+	
+	// There are n people in a circle
+	// Kth person gets killed 
+	// find the survivor
+	
+	public int findSurvivor(int n, int k) {
+		if(n == 1) return n;
+		
+		return (findSurvivor(n-1,k) + k-1) % n + 1;
+	}
+
+}
