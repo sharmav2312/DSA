@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;DSA&apos;&#x0A;- Original project: &apos;DSA&apos;&#x0A;- Original elements:&#x0A;     DSA/src/com.vishu.dsa.arrays&#x0A;     DSA/src/com.vishu.dsa.linkedlist&#x0A;     DSA/src/com.vishu.dsa.recursion&#x0A;     DSA/src/com.vishu.dsa.Strings" description="Delete elements" element1="/src&lt;com.vishu.dsa.recursion" element2="/src&lt;com.vishu.dsa.linkedlist" element3="/src&lt;com.vishu.dsa.arrays" element4="/src&lt;com.vishu.dsa.Strings" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1658743300442" subPackages="false" version="1.0"/>
+</session>
