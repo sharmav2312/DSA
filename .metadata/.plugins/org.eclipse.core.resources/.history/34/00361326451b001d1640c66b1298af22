@@ -1,0 +1,18 @@
+package com.dsa.analysis;
+
+public class TimeComplexity {
+	
+	public static void main(String[] args) {
+		double startTime = System.currentTimeMillis();
+		
+		findSum(20);
+		
+		System.out.println("Total time taken: " + (System.currentTimeMillis() - startTime) );
+	}
+	
+	public static int findSum(int n) {
+		
+		return n * (n+1) / 2;
+	}
+
+}
